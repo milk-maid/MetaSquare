@@ -1,70 +1,92 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/event1.jpg',
+    title: 'World cup Final',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    imgUrl: '/event2.jpg',
+    title: 'Facebook Seminar',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    imgUrl: '/event3.jpg',
+    title: 'Timeless Album Launching',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    imgUrl: '/event4.jpg',
+    title: 'Web3bridge Conference',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    imgUrl: '/event5.jpg',
+    title: 'Burna Boy Concert',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Event organizers create an event on the platform and set the ticket prices, quantity, and other details.',
+  'The event is published on the platform and attendees can browse and purchase tickets using cryptocurrency or traditional payment methods.',
+  'The tickets are stored on the blockchain as unique, non-fungible tokens (NFTs) that represent ownership rights.',
+  'Attendees can transfer, resell, or gift their tickets to other users on the platform, without the need for intermediaries or authorization from the organizer.',
+  'Smart contracts automatically enforce the terms and conditions of the ticket sale, such as refund policies, transfer restrictions, and event cancellations.',
 ];
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    imgUrl: '/blockchain.png',
+    title: 'Decentralization',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Our platform is fully decentralized, meaning that there are no central authorities or intermediaries controlling the ticket sales, transfers, or ownership',
   },
   {
-    imgUrl: '/headset.svg',
-    title: 'More realistic',
+    imgUrl: '/nft.png',
+    title: 'Non-fungible tokens (NFTs)',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Unlike traditional ticketing solutions, we use NFTs to represent tickets on the blockchain',
+  },{
+    imgUrl: '/smart-contracts.png',
+    title: 'Smart contracts',
+    subtitle:
+        'Our platform uses smart contracts to automate the ticketing process and ensure that all parties comply with the agreed-upon terms and conditions. ',
+  },{
+    imgUrl: '/peer-to-peer.png',
+    title: 'Peer-to-peer',
+    subtitle:
+        'Our platform enables event organizers and attendees to interact directly, without the need for intermediaries such as ticketing agencies or marketplaces. ',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Transparency',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'With our platform, event organizers and attendees can benefit from increased transparency in the ticketing process',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Flexibility',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Our platform provides event organizers with greater flexibility in setting ticket prices, quantities, and other details.',
   },
   {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    imgUrl: '/sec.jpg',
+    title: 'Security',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'By leveraging blockchain technology and NFTs, our platform provides a high level of security and protection to event organizers and attendees.',
+  },
+  {
+    imgUrl:'/eff.jpg',
+    title:'Efficiency',
+    subtitle:'Our platform enables event organizers and attendees to interact directly, without the need for intermediaries or middlemen. '
+  },
+  {
+    imgUrl:'/planet-08.png',
+    title:'Innovation',
+    subtitle:'Our platform represents a novel and innovative approach to event ticketing that leverages cutting-edge technologies such as blockchain, NFTs, and smart contracts.'
   },
 ];
 
@@ -84,5 +106,13 @@ export const socials = [
   {
     name: 'facebook',
     url: '/facebook.svg',
+  },
+  {
+    name: 'discord',
+    url: '/discord.png',
+  },
+  {
+    name: 'github',
+    url: '/github.png',
   },
 ];
