@@ -30,6 +30,9 @@ const wagmiClient = createClient({
   provider,
 });
 const MyApp = ({ Component, pageProps }) => (
+  
+    <WagmiConfig client={wagmiClient}>
+      <RainbowKitProvider chains={chains} modalSize="compact">
   <>
     <Head>
       <title>MetaSquare</title>
@@ -40,6 +43,8 @@ const MyApp = ({ Component, pageProps }) => (
     </Head>
     <Component {...pageProps} />
   </>
+  </RainbowKitProvider>
+    </WagmiConfig>
 );
 
 export default MyApp;

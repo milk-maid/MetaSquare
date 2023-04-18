@@ -1,5 +1,5 @@
 'use client';
-
+import Connect from './Connect'
 import { motion } from 'framer-motion';
 
 import styles from '../styles';
@@ -21,15 +21,13 @@ const Navbar = () => (
         alt="search"
         className="w-[24px] h-[24px] object-contain"
       />
-      <h2 className="font-extrabold text-[24px] leading-[30.24px] text-white">
+       <a href='/'className="font-extrabold text-[24px] leading-[30.24px] text-white">
         METASQUARE
-      </h2>
-      <img
-        src="/menu.svg"
-        alt="menu"
-        className="w-[24px] h-[24px] object-contain"
-      />
-    </div>
+      </a>
+      
+      <Connect/>
+     
+      </div>
   </motion.nav>
 );
 
